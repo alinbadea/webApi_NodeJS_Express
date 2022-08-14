@@ -8,7 +8,7 @@ const settings ={
             pass:process.env.SMTP_PASS || 'b8cece650bda8196a246f69ae39d6f7e'
         }
     },
-    emailFrom: 'alinbadea@upet.ro',
+    emailFrom: 'the email you added in mailjet',
     secretKey: process.env.NODE_SECRET || 'secret'
 };
 module.exports = settings;
